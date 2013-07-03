@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="cnllaneviewer" storage="d:\qa\automation\smartview\smartview.test\testlist\console\laneviwer\cnllaneviewer.orderedtest" id="25e98e42-72a3-4fa6-99de-ce105791cfb9" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="14474344-4986-41ce-8526-3d02ab1bc950" name="cnllaneviewersidelabels" storage="cnllaneviewersidelabels.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f05c5d0f-3bef-4da4-b202-e8b661274125" name="cnllaneviewerlivemodesettings" storage="cnllaneviewerlivemodesettings.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="02efb11c-2b50-4301-a7d2-9d5f45413581" name="cnllaneviewerdisplayoption" storage="cnllaneviewerdisplayoption.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="8f16ba7d-625f-4deb-be0b-837f80c2c4a2" name="cnllaneviewerdefinequery" storage="cnllaneviewerdefinequery.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

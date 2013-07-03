@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="cnlmultidefectviewer" storage="d:\qa\automation\smartview\smartview\testlist\console\multidefectviewer\cnlmultidefectviewer.orderedtest" id="bc9e629f-0920-4364-b025-53261bb1910b" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="3aa0290c-185b-4185-833a-565339097716" name="cnlmultidefectviewerdefinequery" storage="cnlmultidefectviewerdefinequery.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="9f28f3f2-08d7-4bcb-a211-47608e8b496f" name="cnlmultidefectviewerdisplayoptions" storage="cnlmultidefectviewerdisplayoptions.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="df5f66d5-11e5-4ddd-9357-967b94159099" name="cnlmultidefectviewerlivemodesettings" storage="cnlmultidefectviewerlivemodesettings.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

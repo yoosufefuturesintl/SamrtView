@@ -1,0 +1,321 @@
+﻿namespace SVPQA.UIModule.PQA.TrendViewer.TrendViewerClasses
+{
+    using Microsoft.VisualStudio.TestTools.UITesting.WinControls;
+    using System;
+    using System.Collections.Generic;
+    using System.Drawing;
+    using System.Windows.Input;
+    using System.CodeDom.Compiler;
+    using System.Text.RegularExpressions;
+    using Microsoft.VisualStudio.TestTools.UITest.Extension;
+    using Microsoft.VisualStudio.TestTools.UITesting;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
+    using Mouse = Microsoft.VisualStudio.TestTools.UITesting.Mouse;
+    using MouseButtons = System.Windows.Forms.MouseButtons;
+    using System.Threading;
+
+
+    public partial class UIMap
+    {
+    }
+    public partial class TrendViewer
+    {
+
+        /// <summary>
+        /// GenerateTrendViewer
+        /// </summary>
+        public void GenerateTrendViewer()
+        {
+            #region Variable Declarations
+            WinButton uITrendViewerButton = this.UISmartViewProductionQWindow.UIToolbarMainWindow.UITrendViewerButton;
+            #endregion
+
+            // Click 'Trend Viewer' button
+            Mouse.Click(uITrendViewerButton, new Point(13, 23));
+        }
+
+        /// <summary>
+        /// ChangeToSharedSelection
+        /// </summary>
+        public void ChangeToSharedSelection()
+        {
+            #region Variable Declarations
+            WinTitleBar uITrendViewerTitleBar = this.UISmartViewProductionQWindow.UITrendViewerWindow.UITrendViewerTitleBar;
+            WinMenuItem uIItemMenuItem = this.UIItemWindow.UIContextMenu.UIItemMenuItem;
+            WinButton uIItemButton = this.UISmartViewProductionQWindow.UITrendViewerWindow.UIToolbarWindow.UIItemButton;
+            #endregion
+
+            // Click 'Trend Viewer' title bar
+            Mouse.Click(uITrendViewerTitleBar, new Point(466, 11));
+
+            // Click 'Unknown Name' menu item
+            Mouse.Click(uIItemMenuItem, new Point(30, 8));
+
+            // Click button numbered 4 in 'toolbar' window
+            Mouse.Click(uIItemButton, new Point(15, 13));
+        }
+
+        public void ClickRunButtonInTrendViewerToolBar()
+        {
+            #region Variable Declarations
+            WinButton uIItemButton = this.UISmartViewProductionQWindow.UITrendViewerWindow.UIToolbarWindow.UIItemButton;
+            #endregion
+
+            // Click button numbered 4 in 'toolbar' window
+            Mouse.Click(uIItemButton, new Point(15, 13));
+        }
+
+        public void WaitForEnableRunButtonInTrendViewerToolBar()
+        {
+            #region Variable Declarations
+            WinButton uIItemButton = this.UISmartViewProductionQWindow.UITrendViewerWindow.UIToolbarWindow.UIItemButton;
+            #endregion
+
+            uIItemButton.SearchProperties[WinButton.PropertyNames.Name] = "Run Query";
+            uIItemButton.WaitForControlExist(1200000);
+            uIItemButton.WaitForControlEnabled(1200000);
+           // uIItemButton.WaitForControlPropertyEqual("Name", "Stop Query");
+            // Click button numbered 4 in 'toolbar' window
+            //Mouse.Click(uIItemButton);
+        }
+
+        /// <summary>
+        /// VerifyLegendIsShownInTrendViewer - Use 'VerifyLegendIsShownInTrendViewerExpectedValues' to pass parameters into this method.
+        /// </summary>
+        public void VerifyLegendIsShownInTrendViewer(bool isLegendShown)
+        {
+            #region Variable Declarations
+            WinList uIListboxList = this.UISmartViewProductionQWindow.UITrendViewerWindow.UIListboxWindow.UIListboxList;
+            #endregion
+
+            // Verify that 'listbox' list box's property 'Exists' equals 'True'
+            Assert.AreEqual(isLegendShown, uIListboxList.Exists);
+        }
+
+        public virtual VerifyLegendIsShownInTrendViewerExpectedValues VerifyLegendIsShownInTrendViewerExpectedValues
+        {
+            get
+            {
+                if ((this.mVerifyLegendIsShownInTrendViewerExpectedValues == null))
+                {
+                    this.mVerifyLegendIsShownInTrendViewerExpectedValues = new VerifyLegendIsShownInTrendViewerExpectedValues();
+                }
+                return this.mVerifyLegendIsShownInTrendViewerExpectedValues;
+            }
+        }
+
+        private VerifyLegendIsShownInTrendViewerExpectedValues mVerifyLegendIsShownInTrendViewerExpectedValues;
+
+        /// <summary>
+        /// CloseTrendViewer
+        /// </summary>
+        public void CloseTrendViewer()
+        {
+            #region Variable Declarations
+            WinButton uICloseButton = this.UISmartViewProductionQWindow.UITrendViewerWindow.UICloseButton;
+            #endregion
+
+            // Click 'Close' button
+            Mouse.Click(uICloseButton, new Point(16, 9));
+        }
+
+        /// <summary>
+        /// WaitForStopQueryButtonEnabled - Use 'WaitForStopQueryButtonEnabledExpectedValues' to pass parameters into this method.
+        /// </summary>
+        public void WaitForStopQueryButtonEnabled()
+        {
+            #region Variable Declarations
+            WinButton uIStopQueryButton = this.UISmartViewProductionQWindow.UITrendViewerWindow.UIToolbarWindow.UIStopQueryButton;
+            #endregion
+
+            uIStopQueryButton.WaitForControlEnabled();
+            //uIStopQueryButton.WaitForControlNotExist(200000);
+           
+            //uIStopQueryButton.WaitForControlEnabled();
+            // Verify that 'Stop Query' button's property 'ControlType' equals 'Button'
+            // Assert.AreEqual(this.WaitForStopQueryButtonEnabledExpectedValues.UIStopQueryButtonControlType, uIStopQueryButton.ControlType.ToString());
+        }
+
+        public virtual WaitForStopQueryButtonEnabledExpectedValues WaitForStopQueryButtonEnabledExpectedValues
+        {
+            get
+            {
+                if ((this.mWaitForStopQueryButtonEnabledExpectedValues == null))
+                {
+                    this.mWaitForStopQueryButtonEnabledExpectedValues = new WaitForStopQueryButtonEnabledExpectedValues();
+                }
+                return this.mWaitForStopQueryButtonEnabledExpectedValues;
+            }
+        }
+
+        private WaitForStopQueryButtonEnabledExpectedValues mWaitForStopQueryButtonEnabledExpectedValues;
+
+        /// <summary>
+        /// WaitForPrintButtonEnabled - Use 'WaitForPrintButtonEnabledExpectedValues' to pass parameters into this method.
+        /// </summary>
+        public void WaitForPrintButtonEnabled()
+        {
+            #region Variable Declarations
+            WinButton uIPrintButton = this.UISmartViewProductionQWindow.UITrendViewerWindow.UIToolbarWindow.UIPrintButton;
+            #endregion
+
+            uIPrintButton.WaitForControlExist();
+            uIPrintButton.WaitForControlEnabled();
+            // Verify that 'Print' button's property 'Enabled' equals 'True'
+            // Assert.AreEqual(this.WaitForPrintButtonEnabledExpectedValues.UIPrintButtonEnabled, uIPrintButton.Enabled);
+        }
+
+        public virtual WaitForPrintButtonEnabledExpectedValues WaitForPrintButtonEnabledExpectedValues
+        {
+            get
+            {
+                if ((this.mWaitForPrintButtonEnabledExpectedValues == null))
+                {
+                    this.mWaitForPrintButtonEnabledExpectedValues = new WaitForPrintButtonEnabledExpectedValues();
+                }
+                return this.mWaitForPrintButtonEnabledExpectedValues;
+            }
+        }
+
+        private WaitForPrintButtonEnabledExpectedValues mWaitForPrintButtonEnabledExpectedValues;
+
+        /// <summary>
+        /// WaitForProgressBar - Use 'WaitForProgressBarExpectedValues' to pass parameters into this method.
+        /// </summary>
+        public void WaitForProgressBar()
+        {
+            #region Variable Declarations
+            WinProgressBar uIProgressBarProgressBar = this.UISmartViewProductionQWindow.UITrendViewerWindow.UIProgressBarWindow.UIProgressBarProgressBar;
+            #endregion
+
+            uIProgressBarProgressBar.WaitForControlExist();
+            uIProgressBarProgressBar.WaitForControlNotExist();
+            // Verify that 'progressBar' progress bar's property 'Exists' equals 'True'
+            // Assert.AreEqual(this.WaitForProgressBarExpectedValues.UIProgressBarProgressBarExists, uIProgressBarProgressBar.Exists);
+        }
+
+        public virtual WaitForProgressBarExpectedValues WaitForProgressBarExpectedValues
+        {
+            get
+            {
+                if ((this.mWaitForProgressBarExpectedValues == null))
+                {
+                    this.mWaitForProgressBarExpectedValues = new WaitForProgressBarExpectedValues();
+                }
+                return this.mWaitForProgressBarExpectedValues;
+            }
+        }
+
+        private WaitForProgressBarExpectedValues mWaitForProgressBarExpectedValues;
+
+        /// <summary>
+        /// ProgressBar - Use 'ProgressBarExpectedValues' to pass parameters into this method.
+        /// </summary>
+        public void ProgressBar()
+        {
+            #region Variable Declarations
+            WinProgressBar uIProgressBarProgressBar = this.UISmartViewProductionQWindow.UITrendViewerWindow.UIProgressBarWindow.UIProgressBarProgressBar;
+            WinWindow uIProgressBarWindow = this.UISmartViewProductionQWindow.UITrendViewerWindow.UITrendViewWindow.UIProgressBarWindow;
+            #endregion
+
+          
+            
+           // uIProgressBarWindow.WaitForControlNotExist();
+            // Verify that 'progressBar' progress bar's property 'ControlName' equals 'progressBar'
+            //Assert.AreEqual(this.ProgressBarExpectedValues.UIProgressBarProgressBarControlName, uIProgressBarProgressBar.ControlName);
+
+            // Verify that 'progressBar' window's property 'ControlName' equals 'progressBar'
+            //Assert.AreEqual(this.ProgressBarExpectedValues.UIProgressBarWindowControlName, uIProgressBarWindow.ControlName);
+        }
+
+        public virtual ProgressBarExpectedValues ProgressBarExpectedValues
+        {
+            get
+            {
+                if ((this.mProgressBarExpectedValues == null))
+                {
+                    this.mProgressBarExpectedValues = new ProgressBarExpectedValues();
+                }
+                return this.mProgressBarExpectedValues;
+            }
+        }
+
+        private ProgressBarExpectedValues mProgressBarExpectedValues;
+    }
+    /// <summary>
+    /// Parameters to be passed into 'VerifyLegendIsShownInTrendViewer'
+    /// </summary>
+    [GeneratedCode("Coded UITest Builder", "10.0.30319.1")]
+    public class VerifyLegendIsShownInTrendViewerExpectedValues
+    {
+
+        #region Fields
+        /// <summary>
+        /// Verify that 'listbox' list box's property 'Exists' equals 'True'
+        /// </summary>
+        public bool UIListboxListExists = true;
+        #endregion
+    }
+    /// <summary>
+    /// Parameters to be passed into 'WaitForStopQueryButtonEnabled'
+    /// </summary>
+    [GeneratedCode("Coded UITest Builder", "10.0.30319.1")]
+    public class WaitForStopQueryButtonEnabledExpectedValues
+    {
+
+        #region Fields
+        /// <summary>
+        /// Verify that 'Stop Query' button's property 'ControlType' equals 'Button'
+        /// </summary>
+        public string UIStopQueryButtonControlType = "Button";
+        #endregion
+    }
+    /// <summary>
+    /// Parameters to be passed into 'WaitForPrintButtonEnabled'
+    /// </summary>
+    [GeneratedCode("Coded UITest Builder", "10.0.30319.1")]
+    public class WaitForPrintButtonEnabledExpectedValues
+    {
+
+        #region Fields
+        /// <summary>
+        /// Verify that 'Print' button's property 'Enabled' equals 'True'
+        /// </summary>
+        public bool UIPrintButtonEnabled = true;
+        #endregion
+    }
+    /// <summary>
+    /// Parameters to be passed into 'WaitForProgressBar'
+    /// </summary>
+    [GeneratedCode("Coded UITest Builder", "10.0.30319.1")]
+    public class WaitForProgressBarExpectedValues
+    {
+
+        #region Fields
+        /// <summary>
+        /// Verify that 'progressBar' progress bar's property 'Exists' equals 'True'
+        /// </summary>
+        public bool UIProgressBarProgressBarExists = true;
+        #endregion
+    }
+    /// <summary>
+    /// Parameters to be passed into 'ProgressBar'
+    /// </summary>
+    [GeneratedCode("Coded UITest Builder", "10.0.30319.1")]
+    public class ProgressBarExpectedValues
+    {
+
+        #region Fields
+        /// <summary>
+        /// Verify that 'progressBar' progress bar's property 'ControlName' equals 'progressBar'
+        /// </summary>
+        public string UIProgressBarProgressBarControlName = "progressBar";
+
+        /// <summary>
+        /// Verify that 'progressBar' window's property 'ControlName' equals 'progressBar'
+        /// </summary>
+        public string UIProgressBarWindowControlName = "progressBar";
+        #endregion
+}
+}

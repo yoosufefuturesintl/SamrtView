@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="Console" storage="d:\softwares\testng-6.3.1\cognex\automation\scripts\smartview\smartview.test\testlist\pqa\console.orderedtest" id="ca0f0bdd-4763-4d25-9707-67842ba0cdc7" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="f31b031b-4459-4c81-8351-71de82162f38" />
+  <TestLinks>
+    <TestLink id="bc9e629f-0920-4364-b025-53261bb1910b" name="CNLMultiDefectViewer" storage="..\console\multidefectviewer\cnlmultidefectviewer.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="4790fd6b-2d9e-4132-8c14-5c907ee0428d" name="CNLLaneViewer" storage="..\console\laneviwer\cnllaneviewer.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="5bd868d9-c2d7-41cc-98fa-0227ae0f0f85" name="CNLDefectRateViewer" storage="..\console\defectraterviewer\cnldefectrateviewer.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="49801660-d2c9-4711-8dd6-cc07a840a0dc" name="CNLSheetQualityViewer" storage="..\console\sheetqualityviewer\cnlsheetqualityviewer.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

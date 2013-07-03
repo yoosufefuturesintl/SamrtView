@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="RCPThresholds" storage="d:\softwares\testng-6.3.1\cognex\automation\scripts\smartview\smartview.test\testlist\recipe\rcpthresholds.orderedtest" id="8b461743-0be7-4e1a-979d-1e418b9d9b3b" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="fabe757e-63ab-4726-b14e-b72f0fc59d9d" />
+  <TestLinks>
+    <TestLink id="b4105bd1-6f86-f621-c0ff-35d526960bd1" name="TestRCPLaunchRecipe" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f1392b7a-2b9c-395d-7958-9e79a1cf30c3" name="TestRCPTHRBaselineDefineLowerBaslineThreshold" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="a688119c-2bd3-9cb5-d73e-aa5bac2fde39" name="TestRCPCloseRecipeManager" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

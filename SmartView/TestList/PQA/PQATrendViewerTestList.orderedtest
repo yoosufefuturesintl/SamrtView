@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="pqatrendviewertestlist" storage="d:\softwares\testng-6.3.1\smartview\smartview\testlist\pqa\pqatrendviewertestlist.orderedtest" id="7274ee04-bc43-4fd6-ae4e-013fc6e39d10" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="ed7ad08f-cb60-b809-cc2c-e1b5e30f1e56" name="TestPQATVLaunchTrendViewer" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="78edf5ac-a45a-ef84-482a-f877dd5ff0c6" name="TestPQATVChangeTrendPlotTypeToBar" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="c6ad3882-eac3-9b76-fba2-514d443a5a25" name="TestPQATVShowLegend" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

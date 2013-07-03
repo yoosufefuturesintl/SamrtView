@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="rcp" storage="d:\qa\automation\smartview\smartview\testlist\recipe\rcp.orderedtest" id="f5c866b2-0b8d-43d1-89ea-0b6cf9f03329" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="f153b64c-23fb-4d3a-8bc3-39c0ba138ba4" />
+  <TestLinks>
+    <TestLink id="46e5a6bf-b21e-44a3-96da-91c48bd06fa4" name="rcpclassifyingdefects" storage="rcpclassifyingdefects.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="273231f0-dc36-4eee-a8b0-42bdb494a700" name="rcpaliases" storage="rcpaliases.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f1a0dddc-553a-4163-9d3e-daf43f74aa6b" name="rcpdefectparameters" storage="rcpdefectparameters.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="98b66f6e-932a-4727-a0cd-2dc225b1fbb6" name="rcptileandmap" storage="rcptileandmap.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b7edfd87-99d0-45ae-9ae6-e634f5a8e89c" name="rcprepeatingdefectsetup" storage="rcprepeatingdefectsetup.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="4fb02d04-9bee-49b3-93e4-441d8a075fc0" name="rcpsqa" storage="rcpsqa.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

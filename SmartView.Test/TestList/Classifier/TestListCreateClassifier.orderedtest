@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="testlistcreateclassifier" storage="d:\softwares\testng-6.3.1\cognex\automation\scripts\smartview\smartview.test\testlist\classifier\testlistcreateclassifier.orderedtest" id="820cacc1-568f-4123-b227-c5f368ca9d7f" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="208f280b-3a03-467a-8395-49eba0d77de9" />
+  <TestLinks>
+    <TestLink id="9266b3cd-cba2-608a-84fc-eb4fb262d342" name="TestLaunchClassiferManager" storage="..\..\bin\debug\smartview.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="dbc31cc7-2b5d-005e-81b9-4660f0bdbfa8" name="TestClassifierCreateViewTypeIsMarkReaderAndClassifierTypeIsSmartView" storage="..\..\bin\debug\smartview.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="2b796f18-5697-7a4b-6fc2-79f33bb4862b" name="TestClassifierCreateViewTypeIsStdAndClassifierTypeIsSmartView" storage="..\..\bin\debug\smartview.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="6bbdb6f6-3a2b-b06f-e98e-06ffbf97fdb3" name="TestClassifierCreateViewTypeIsSynchAndClassifierTypeIsSmartView" storage="..\..\bin\debug\smartview.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="685800cd-6350-eec6-2f4c-7dd70fb5d1d9" name="TestCloseClassiferManager" storage="..\..\bin\debug\smartview.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

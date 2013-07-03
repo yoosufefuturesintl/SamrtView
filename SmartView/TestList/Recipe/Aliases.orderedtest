@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="Aliases" storage="d:\softwares\testng-6.3.1\smartview\smartviewpqa\testlist\recipe\aliases.orderedtest" id="5f0a2ba2-e112-4e37-9787-9ba6811c8fbb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="0426b048-395b-95d5-a4bb-d3d3bf150b75" name="TestRCPLaunchRecipe" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="21f8a388-3ae2-07a9-2182-cd8277600d2c" name="TestRCPALSCreateAliases" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="83633d9a-ea5a-e495-c75a-6310d0ddf5e9" name="TestRCPALSCDeleteAliases" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="80e6c091-bad8-18bf-4e6d-aeba19cb12ec" name="TestRCPCloseRecipeManager" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

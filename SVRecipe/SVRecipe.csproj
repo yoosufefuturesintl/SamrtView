@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{506C581A-9BEF-4B9C-B6F0-A704C91265D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SVRecipe</RootNamespace>
+    <AssemblyName>SVRecipe</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension.Firefox, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIModule\Recipe\Aliases\Aliases.cs">
+      <DependentUpon>Aliases.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Aliases\Aliases.Designer.cs">
+      <DependentUpon>Aliases.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Defect\ClassesDialogBox.cs">
+      <DependentUpon>ClassesDialogBox.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Defect\ClassesDialogBox.Designer.cs">
+      <DependentUpon>ClassesDialogBox.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Defect\DefectParameters.cs">
+      <DependentUpon>DefectParameters.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Defect\DefectParameters.Designer.cs">
+      <DependentUpon>DefectParameters.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\PixelFilter\PixelFilter.cs">
+      <DependentUpon>PixelFilter.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\PixelFilter\PixelFilter.Designer.cs">
+      <DependentUpon>PixelFilter.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Recipe.cs">
+      <DependentUpon>Recipe.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Recipe.Designer.cs">
+      <DependentUpon>Recipe.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\RecipeWizard.cs">
+      <DependentUpon>RecipeWizard.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\RecipeWizard.Designer.cs">
+      <DependentUpon>RecipeWizard.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\RepeatingDefectSetup\RepeatingDefectSetup.cs">
+      <DependentUpon>RepeatingDefectSetup.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\RepeatingDefectSetup\RepeatingDefectSetup.Designer.cs">
+      <DependentUpon>RepeatingDefectSetup.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\ReportAndExportSetup\ReportAndExportSetup.cs">
+      <DependentUpon>ReportAndExportSetup.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\ReportAndExportSetup\ReportAndExportSetup.Designer.cs">
+      <DependentUpon>ReportAndExportSetup.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\SheetQualityAnalysis\SheetQualityAnalysis.cs">
+      <DependentUpon>SheetQualityAnalysis.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\SheetQualityAnalysis\SheetQualityAnalysis.Designer.cs">
+      <DependentUpon>SheetQualityAnalysis.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Thresholds\Thresholds.cs">
+      <DependentUpon>Thresholds.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\Thresholds\Thresholds.Designer.cs">
+      <DependentUpon>Thresholds.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\TileMap\TileMap.cs">
+      <DependentUpon>TileMap.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIModule\Recipe\TileMap\TileMap.Designer.cs">
+      <DependentUpon>TileMap.uitest</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UIModule\Recipe\Aliases\Aliases.uitest" />
+    <None Include="UIModule\Recipe\Defect\ClassesDialogBox.uitest" />
+    <None Include="UIModule\Recipe\Defect\DefectParameters.uitest" />
+    <None Include="UIModule\Recipe\PixelFilter\PixelFilter.uitest" />
+    <None Include="UIModule\Recipe\Recipe.uitest" />
+    <None Include="UIModule\Recipe\RecipeWizard.uitest" />
+    <None Include="UIModule\Recipe\RepeatingDefectSetup\RepeatingDefectSetup.uitest" />
+    <None Include="UIModule\Recipe\ReportAndExportSetup\ReportAndExportSetup.uitest" />
+    <None Include="UIModule\Recipe\SheetQualityAnalysis\SheetQualityAnalysis.uitest" />
+    <None Include="UIModule\Recipe\Thresholds\Thresholds.uitest" />
+    <None Include="UIModule\Recipe\TileMap\TileMap.uitest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

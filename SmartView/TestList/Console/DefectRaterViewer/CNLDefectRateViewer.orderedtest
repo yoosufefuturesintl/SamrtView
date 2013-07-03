@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="cnldefectrateviewer" storage="d:\softwares\testng-6.3.1\smartview\smartview\testlist\console\defectraterviewer\cnldefectrateviewer.orderedtest" id="5bd868d9-c2d7-41cc-98fa-0227ae0f0f85" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="da0564e4-1f3b-1bf8-f37c-c8ffa8a9f7c5" name="TestLaunchConsole" storage="..\..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ed501661-14a1-6fa4-f914-75aa9142abf5" name="TestCSDefectRateViewer" storage="..\..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="516a1f31-00e8-4c52-5ea9-8049b7c61621" name="TestCSStopCurrentInspection" storage="..\..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="rcpclassifyingdefects" storage="d:\qa\automation\released\smartview\smartview.test\testlist\recipe\rcpclassifyingdefects.orderedtest" id="49ff6676-4f5b-4816-b372-fea1a703412a" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="c584ed02-46c2-4cb5-b9ef-6000f086b5f9" />
+  <TestLinks>
+    <TestLink id="b4105bd1-6f86-f621-c0ff-35d526960bd1" name="TestRCPLaunchRecipe" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="0c0c91e2-c595-459f-4075-88f21b5e908f" name="TestRCPClassesDBLoadClassPropertiesUsingClassList" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="b3835f0c-5972-ed31-16f9-caa9e6af7aab" name="TestRCPClassesDBAssignOutput" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="89d72a38-1c81-8c2a-ae5b-3be915c17ca1" name="TestRCPClassesDBDisplayClassPropertiesUsingDropDown" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="a688119c-2bd3-9cb5-d73e-aa5bac2fde39" name="TestRCPCloseRecipeManager" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

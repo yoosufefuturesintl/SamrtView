@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="pqadefectsummarytestlist" storage="d:\qa\automation\released\smartview\smartview.test\testlist\pqa\pqadefectsummarytestlist.orderedtest" id="e669c5aa-c16f-4bf1-8e8f-99f6ac1f62f7" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="152e7bfa-d337-0fba-95e1-ba9c4d236309" name="LanuchPQA" storage="..\..\bin\debug\smartview.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="917fdfc3-7e5c-dc7d-8666-6a26933a038b" name="TestPQADSLaunchDefectSummaryReport" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="86e83406-61a3-dedf-2ef6-b4c38670b6c2" name="ClosePQA" storage="..\..\bin\debug\smartview.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

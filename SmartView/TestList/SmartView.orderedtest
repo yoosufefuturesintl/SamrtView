@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="smartview" storage="c:\users\sisdsqa1\documents\visual studio 2010\projects\smartview\smartviewpqa\testlist\smartview.orderedtest" id="69def1e9-6563-49c0-ad55-7df92f368999" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="df6ad1b2-9358-4bbc-8b92-d3d1dc9a500a" />
+  <TestLinks>
+    <TestLink id="1e3853e7-6716-404b-bd07-a263d8aa449b" name="pqa" storage="pqa\pqa.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f5c866b2-0b8d-43d1-89ea-0b6cf9f03329" name="rcp" storage="recipe\rcp.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="44b0ade3-167d-4f6a-a340-7352221bc251" name="Review" storage="review\review.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="d15653a4-72cd-41c3-9349-3fdf37f1e4e5" name="console" storage="pqa\console.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

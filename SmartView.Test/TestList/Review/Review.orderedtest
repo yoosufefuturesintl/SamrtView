@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="Review" storage="d:\softwares\testng-6.3.1\cognex\automation\scripts\smartview\smartview.test\testlist\review\review.orderedtest" id="b4549136-7478-4c1b-85ad-c4d32bef8418" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="3f308599-1c4c-47dc-acf7-e9d68e11c187" name="ReviewLaneViewer" storage="reviewlaneviewer.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

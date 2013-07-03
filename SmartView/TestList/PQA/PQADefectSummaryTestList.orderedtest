@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="pqadefectsummarytestlist" storage="d:\softwares\testng-6.3.1\smartview\smartview\testlist\pqa\pqadefectsummarytestlist.orderedtest" id="547525c5-2eea-4e14-b6b7-acf10ef389a3" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="917fdfc3-7e5c-dc7d-8666-6a26933a038b" name="TestPQADSLaunchDefectSummaryReport" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

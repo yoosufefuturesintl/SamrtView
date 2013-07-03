@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="debug" storage="d:\qa\automation\smartview\smartview\testlist\debug.orderedtest" id="a3c38acc-4d3c-4fee-945b-e738a082ba98" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="50494934-fafa-4ba9-bd5e-950c12d65593" />
+  <TestLinks>
+    <TestLink id="da0564e4-1f3b-1bf8-f37c-c8ffa8a9f7c5" name="TestLaunchConsole" storage="..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="11ca9957-dd37-8771-5463-656c82af2240" name="TestCNLLVLaunchLaneViewer" storage="..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="90f0fd29-fa3e-ddf4-338d-0d8e91450673" name="TestCNLLVEnableAutomaticallyResumeLiveMode" storage="..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

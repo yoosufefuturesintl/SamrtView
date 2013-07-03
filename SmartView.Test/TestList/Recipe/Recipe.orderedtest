@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="recipe" storage="d:\softwares\testng-6.3.1\smartview\smartviewpqa\testlist\recipe\recipe.orderedtest" id="25f16d96-b9a7-4aff-82e3-f2384a574451" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="013a9465-a531-4d3b-b9df-82800dcda8f6" />
+  <TestLinks>
+    <TestLink id="8da66b40-6365-4072-83df-0d2e6d45ce74" name="ClassifyingDefects" storage="classifyingdefects.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="c47ed54d-82bd-4251-994d-f14159de9f96" name="TileAndMap" storage="tileandmap.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="c4745baa-0adf-47c2-b0f7-95153fd5cdf4" name="DefectParameters" storage="defectparameters.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="5f0a2ba2-e112-4e37-9787-9ba6811c8fbb" name="Aliases" storage="aliases.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

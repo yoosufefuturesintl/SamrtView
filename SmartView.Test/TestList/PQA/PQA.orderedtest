@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="PQA" storage="d:\softwares\testng-6.3.1\cognex\automation\scripts\smartview\smartview.test\testlist\pqa\pqa.orderedtest" id="e0283c35-a6f9-47a9-a09f-378adf73ecc6" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="c420bb58-8864-474c-a8d3-46f86b67936e" />
+  <TestLinks>
+    <TestLink id="75d67eec-ddad-1076-14f4-d523e766e4ed" name="TestGenerateRandomNo" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="152e7bfa-d337-0fba-95e1-ba9c4d236309" name="LanuchPQA" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ca5cfb36-ea44-4a37-9ea0-da503301a9d5" name="WebViewerTestList" storage="webviewertestlist.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="547525c5-2eea-4e14-b6b7-acf10ef389a3" name="DefectSummaryTestList" storage="defectsummarytestlist.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="7274ee04-bc43-4fd6-ae4e-013fc6e39d10" name="TrendViewerTestList" storage="trendviewertestlist.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="296772da-4fb3-ce95-3839-f348cd808fa6" name="TestSuiteCleanUp" storage="..\..\bin\debug\smartviewpqa.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="a05df98d-c0f6-480d-9aa9-e9e9643b6c91" name="reporttestlist" storage="reporttestlist.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
